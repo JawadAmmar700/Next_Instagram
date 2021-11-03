@@ -1,6 +1,5 @@
 import { getProviders, signIn } from "next-auth/client"
 import Button from "@material-tailwind/react/Button"
-import Image from "next/image"
 import { getSession } from "next-auth/client"
 
 export async function getServerSideProps(context) {
@@ -21,7 +20,7 @@ const SignIn = ({ providers }) => {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-evenly">
       <div className="flex flex-col items-center justify-center">
-        <Image
+        <img
           src="/images/instagram-text.png"
           width={300}
           height={100}

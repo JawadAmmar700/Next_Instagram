@@ -32,21 +32,17 @@ const Header = () => {
       <div className="w-full lg:w-[70%] flex items-center justify-between px-2">
         {/* Header Logo */}
         <div className="w-[40px] h-[40px] relative lg:hidden cursor-pointer">
-          <Image
+          <img
             src="/images/instagram.png"
-            width={40}
-            height={40}
             alt="instagram logo"
             className="absolute"
           />
         </div>
         <div className="w-[100px] h-[40px] relative hidden lg:block cursor-pointer">
-          <Image
+          <img
             src="/images/instagram-text.png"
-            width={70}
-            height={40}
             alt="instagram logo"
-            className="absolute "
+            className="absolute"
           />
         </div>
 
